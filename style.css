@@ -1,0 +1,164 @@
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+ 
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.padre {
+
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+   
+}
+
+body {
+    
+}
+
+header {
+    
+}
+
+
+.logo a img {
+    width: 100px;
+
+}
+.menu {
+    text-decoration: none;
+    display: flex;
+   
+}
+
+header ul {
+    
+}
+
+header ul li {
+    
+}
+header ul li a {
+    font-size: x-large;
+    font-weight: bolder;
+    color: #004481;
+    text-decoration: none;
+    padding: 10px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 5px;
+    transition: background-size .s;
+    
+}
+a:hover { 
+    color: #009bdb;
+    transition: 0.5s;
+    background-size: 100% 2px;
+    
+}
+
+
+
+
+
+ul {
+    list-style:none;
+}
+
+.head {
+    background-image: url(./img/1643177803-huge.jpg);
+    height: 600px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box2 {}
+
+h1 {
+    color: white;
+    font-size: 80px;
+}
+
+h1 a {}
+
+h2 {}
+h4 {}
+p {}
+
+section {}
+
+.container {}
+
+.container1 {}
+
+.carrusel {}
+.contacto {}
+.footer {}
+
+#Nosotros {}
+
+#Servicios {
+    
+}
+
+.foto1{
+    width: 200px;
+}
+
+#Trabajos {}
+#Contacto {}
+
+
+
+li {
+    
+}
+
+
+.container carrusel {}
+
+.container Contacto {}
+
+form {}
+
+input {}
+textarea {}
+
+button {}
+
+.footer {
+    background-color: #004481;
+    color: white;
+    padding: 20px;
+    
+}
+
+.logofooter {
+    width: 80px;
+    
+}
+
+.social {}
+.social ul  {}
+.social ul li  {}
+.social ul li a  {}
+
+.social ul li a i {
+    color: white;
+}
+
