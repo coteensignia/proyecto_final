@@ -78,13 +78,7 @@ a:hover {
 ul {
     list-style:none;
 }
-ul{
-    border: yellow;
-	margin-top: 30px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+
 
 h1 {
     color: white;
@@ -135,20 +129,9 @@ h2 {
     margin-bottom: 40px;
 }
 
-
-
-
 .foto1{
     width: 200px;
 }
-
-
-#Contacto {
-    background-image: url(./img/bubbles-g4ce401946_1920.jpg);
-}
-
-
-
 
 ul{
 	margin-top: 40px;
@@ -162,13 +145,61 @@ ul{
 
 
 
+/* CONTACTO  */
+
+#Contacto {
+    background-image: url(./img/bubbles-g4ce401946_1920.jpg);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
 
 
-/* NUESTROS TRABAJOS */
+.containera{
+    display: flex; 
+    align-items: center;
+}
 
+.containera h2 {
+    color: white;
+    margin: 30px;
+    display: flex; 
+}
 
+.container_contacto {
+    display: flex;
+    align-items: center;
 
+}
 
+input, textarea {
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    vertical-align: middle;
+    resize: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+textarea {
+    padding-top: 15px;
+}
+
+.btnc {
+    background-color: #004481;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+.btnc:hover {
+    background-color: #009bdb;
+}
 
 
 
@@ -282,6 +313,84 @@ ul li div img:hover{
 
 
 
+/* TRABAJOS */
+#Trabajos h2 {
+        margin-left: 50px;
+        margin-bottom: 30px;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+
 
 
 
@@ -331,9 +440,6 @@ h4 {
 }
 
 
-.social {
-    justify-content:space-around;
-}
 
 
 .social ul li a{
@@ -344,6 +450,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
 
 }
 
@@ -357,4 +464,93 @@ h4 {
 .social ul li a i {
     color: #004481;
     font-size: 20px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 906px) {
+
+    .box2 {
+        
+        align-items: center;
+    }
+   
+
+    .nosotros_img {
+        width: 100%;
+    }
+	
+
+    .servicios_cuadros {
+        height: 200px;
+        flex: 0 1 calc(30%);
+        
+    }
+
+    .box {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .slideshow-container {
+        width: 90%;
+    }
+
+    input, textarea {
+        display: block;
+        margin-bottom: 10px;
+
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    
+    #Nosotros {
+        display: block;
+    }
+	
+    .container_container1 {
+        margin-right: 2px;
+        display: block;
+        width: 100%;
+     
+    }
+
+    .servicios_cuadros {
+        height: 200px;
+        flex: 0 1 calc(100%);
+        
+    }
+
+#Contacto, .containera, .container_contacto {
+    display: block;
+    height: auto;
+    padding: 3px;
+    
+}
+
+input, textarea, .btnc {
+    width: 90%;
+    margin: 5%;
+}
+.btnc {
+    padding: 10px;
+    width: 70%;
+    margin: 20px 15%;
+}
+
+.footerc1 {
+    display: none;
+}
+
+
 }
