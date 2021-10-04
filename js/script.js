@@ -19,12 +19,3 @@ function showSlides() {
   setTimeout(showSlides, 2000);
 }
 
-// VALIDACION
-
-function ValidarDatos(){
-  var nombre = document.getElementById("name").value;
-  var telefono = document.getElementById("tel").value;
-
-  console.log(nombre);
-  console.log(telefono);
-}

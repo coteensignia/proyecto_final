@@ -28,6 +28,14 @@ p {
     width: 100%;
 }
 
+.success {
+    border: 2px solid green;
+}
+
+.error {
+    border: 2px solid red;
+}
+
 /* Nav */
 .nav {
     display: flex;
@@ -54,6 +62,30 @@ p {
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.head_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url(./img/water-gf0a121346_1920.jpg);
+    height: 300px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3 {
+    width: 100%;  
+}
+
+.box3 p{
+    margin: 10px;
+    width: 90%;
+    text-align:center;
+    padding: 0;
+    
 }
 
 header ul li a {
@@ -109,6 +141,30 @@ h2 {
 }
 
 .boton-personalizado:hover {
+    width: 250px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #009bdb;
+    transition: .4s all ease-in-out;
+
+}
+
+.boton-personalizado2{
+    width: 200px;
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #004481;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5);
+    transition: .4s all ease-in-out;
+}
+
+.boton-personalizado2:hover {
     width: 250px;
     color: white;
     text-decoration: none;
@@ -419,6 +475,102 @@ h4 {
 
 
 
+/* SERVICIOS 2*/
+#Servicios2 {
+    background-color: rgb(246, 253, 255);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contenedorcuadradoscolores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.color1 {
+    background-color: #bbeafe;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+
+}
+
+.color1:hover {
+    background-color: #004481;
+
+}
+
+/* CONTACTO2  */
+
+#Contacto2 {
+    background-image: url(./img/bubbles-g4ce401946_1920.jpg);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+
+.containera2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.containera2 h2 {
+    color: white;
+    margin: 30px;
+    display: flex;
+}
+
+.containera2 h3 {
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+    display: flex;
+}
+
+.container_contacto {
+    display: flex;
+    align-items: center;
+
+}
+
+input {
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    vertical-align: middle;
+    resize: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+.btnc2 {
+    background-color: #004481;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnc2:hover {
+    background-color: #009bdb;
+}
+
+
+
 /* Media Query */
 
 @media only screen and (max-width: 906px) {
@@ -452,8 +604,17 @@ h4 {
     textarea {
         display: block;
         margin-bottom: 10px;
-
     }
+
+    .box3 p {
+        font-size: 18px;
+        margin-right: 50px;
+    }
+
+    .btnc {
+        margin-top: 15px;
+    }
+
 }
 
 
@@ -461,6 +622,11 @@ h4 {
 
     #Nosotros {
         display: block;
+    }
+
+    .head_2 {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .container_container1 {
@@ -474,29 +640,58 @@ h4 {
         flex: 0 1 calc(100%);
     }
 
-    #Contacto,
-    .containera,
-    .container_contacto {
-        display: block;
+
+    .contenedorcuadradoscolores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+        
+
+    #Contacto2,
+    .containera2,
+    .container_contacto2 {
+        display: flex;
+        flex-direction: column;
         height: auto;
         padding: 3px;
     }
 
+    .color1 {
+        height: 100%
+    }
+
     input,
-    textarea,
-    .btnc {
+    .btnc2 {
         width: 90%;
         margin: 5%;
     }
 
-    .btnc {
+    .btnc2 {
         padding: 10px;
         width: 70%;
         margin: 20px 15%;
     }
 
+    .btnc2 {
+        padding: 10px;
+        width: 70%;
+        margin: 20px 15%;
+
+        
+    }
+    
+    .contenedorfooter{
+        margin-bottom: 30px;
+    }
+
     .footerc1 {
         display: none;
     }
+  
 
 }

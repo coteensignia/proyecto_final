@@ -60,7 +60,7 @@
 				Nos preocupamos de todos los detalles para que ustedes solo se dediquen a disfrutar de su piscina en
 				familia.
 				</p>
-				<a class="boton-personalizado" href="./nosotrosmas.html">+ sobre nosotros</a>
+				<a class="boton-personalizado2" href="./nosotrosmas.html">+ sobre nosotros</a>
 			</div>
 			<div class="nosotros_img">
 				<img src="./img/collage.png" alt="">
@@ -194,12 +194,12 @@
 				<h2>Contacto</h2>
 			</div>
 			<div class="container_contacto">
-				<form method="post" action="./form.php">
-					<input type="text" name="name" value="" placeholder="Nombre" id="name">
-					<input type="email" name="email" value="" placeholder="Email">
-					<input type="phone" name="phone" value="" placeholder="Teléfone" id="tel">
-					<textarea name="comment" placeholder="Mensaje"></textarea>
-					<butto class="btnc" onclick="ValidarDatos" type="submit" name="submit"> Enviar</butto>
+				<form method="post" action="" id="formulario">
+					<input type="text" placeholder="Nombre" id="name" name="name">
+					<input type="email" placeholder="Email" id="email" name="email">
+					<input type="phone"placeholder="Teléfone" id="tel" name="tel">
+					<textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+					<button id="enviar" class="btnc"> Enviar</button>
 				</form>
 			</div>
 		</section>
@@ -231,7 +231,6 @@
 			</div>
 		</footer>
 	</div>
-	<script src="./script.js"></script>
-</body>
-
+	<script src="./js/script.js"></script>
+	<script src="./js/validacion.js"></script>
 </html>
