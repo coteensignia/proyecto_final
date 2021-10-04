@@ -60,6 +60,7 @@
 				Nos preocupamos de todos los detalles para que ustedes solo se dediquen a disfrutar de su piscina en
 				familia.
 				</p>
+				<a class="boton-personalizado" href="./nosotrosmas.html">+ sobre nosotros</a>
 			</div>
 			<div class="nosotros_img">
 				<img src="./img/collage.png" alt="">
@@ -169,15 +170,15 @@
 			<div class="slides-container">
 				<div class="mySlides fade">
 					<img src="./img/galeria/4.png" style="width:100%">
-					<div class="text">Caption Text</div>
+					<div class="text">Trabajo1</div>
 				</div>
 				<div class="mySlides fade">
 					<img src="./img/galeria/2.png" style="width:100%">
-					<div class="text">Caption Two</div>
+					<div class="text">Trabajo2</div>
 				</div>
 				<div class="mySlides fade">
 					<img src="./img/galeria/3.png" style="width:100%">
-					<div class="text">Caption Three</div>
+					<div class="text">Trabajo3</div>
 				</div>
 			</div>
 			<br>
@@ -194,11 +195,11 @@
 			</div>
 			<div class="container_contacto">
 				<form method="post" action="./form.php">
-					<input type="text" name="name" value="" placeholder="Nombre">
+					<input type="text" name="name" value="" placeholder="Nombre" id="name">
 					<input type="email" name="email" value="" placeholder="Email">
-					<input type="phone" name="phone" value="" placeholder="Teléfone">
+					<input type="phone" name="phone" value="" placeholder="Teléfone" id="tel">
 					<textarea name="comment" placeholder="Mensaje"></textarea>
-					<button class="btnc" type="submit" name="submit"> Enviar</button>
+					<butto class="btnc" onclick="ValidarDatos" type="submit" name="submit"> Enviar</butto>
 				</form>
 			</div>
 		</section>

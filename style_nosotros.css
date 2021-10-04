@@ -1,0 +1,364 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.padre {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: white;
+}
+
+.logo a img {
+    width: 80px;
+}
+
+.menu {
+    text-decoration: none;
+    display: flex;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url(./img/water-gf0a121346_1920.jpg);
+    height: 300px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header ul li a {
+    font-size: large;
+    font-weight: normal;
+    color: #009bdb;
+    text-decoration: none;
+    padding: 10px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 1000ms;
+}
+
+a:hover {
+    color: #004481;
+    transition: 0.5s;
+    background-size: 100% 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+h2 {
+    color: #009bdb;
+    border-bottom: 3px solid #004481;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.container_container1 {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.container_container1 h2 {
+    margin-bottom: 40px;
+}
+
+.foto1 {
+    width: 200px;
+}
+
+ul {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.box3 {
+    width: 30%;
+    margin-left: 30px;
+}
+.box3 p{
+    font-size: 23px;
+    line-height: 30px;
+}
+
+
+/* SERVICIOS */
+#Servicios {
+    background-color: rgb(246, 253, 255);
+    padding: 50px 0;
+    text-align: center;
+}
+.contenedorcuadradoscolores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.color1{
+    background-color: #bbeafe;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+    
+}
+
+.color1:hover{
+    background-color: #004481;
+
+}
+
+/* CONTACTO  */
+
+#Contacto {
+    background-image: url(./img/bubbles-g4ce401946_1920.jpg);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+
+.containera {
+    display: flex;
+    align-items: center;
+    background-image: url(./img/bubbles-g4ce401946_1920.jpg);
+}
+
+.containera h2 {
+    color: white;
+    margin: 30px;
+    display: flex;
+}
+
+.containera h3 {
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+    display: flex;
+}
+
+.container_contacto {
+    display: flex;
+    align-items: center;
+
+}
+
+input {
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    vertical-align: middle;
+    resize: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+.btnc {
+    background-color: #004481;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnc:hover {
+    background-color: #009bdb;
+}
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #004481;
+    padding: 30px;
+    color: white;
+}
+
+.info {
+    text-align: center;
+}
+
+h5 {
+    font-weight: lighter;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+.footerc1 h6 {
+    font-weight: lighter;
+}
+
+.contenedorfooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logofooter {
+    width: 50px;
+}
+
+
+.social ul li a {
+    background-color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+
+
+.social ul li a:hover i {
+    font-size: 23px;
+}
+
+
+
+.social ul li a i {
+    color: #004481;
+    font-size: 20px;
+}
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 906px) {
+
+    .box2 {
+        align-items: center;
+    }
+
+
+    .nosotros_img {
+        width: 100%;
+    }
+
+
+    .servicios_cuadros {
+        height: 200px;
+        flex: 0 1 calc(30%);
+
+    }
+
+    .box {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .slides-container {
+        width: 90%;
+    }
+
+    input,
+    textarea {
+        display: block;
+        margin-bottom: 10px;
+
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    #Nosotros {
+        display: block;
+    }
+
+    .container_container1 {
+        margin-right: 2px;
+        display: block;
+        width: 100%;
+    }
+
+    .servicios_cuadros {
+        height: 200px;
+        flex: 0 1 calc(100%);
+    }
+
+    #Contacto,
+    .containera,
+    .container_contacto {
+        display: block;
+        height: auto;
+        padding: 3px;
+    }
+
+    input,
+    textarea,
+    .btnc {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .btnc {
+        padding: 10px;
+        width: 70%;
+        margin: 20px 15%;
+    }
+
+    .footerc1 {
+        display: none;
+    }
+
+}
