@@ -1,5 +1,5 @@
 // VALIDACION
-var ValidarDatos = function(){
+var ValidarDatos = function () {
     var nombre = document.getElementById("name");
     var telefono = document.getElementById("tel");
     var email = document.getElementById("email");
@@ -47,11 +47,11 @@ var ValidarDatos = function(){
     }
 
     if (enviar == "") {
-        return true;   
+        return true;
     } else {
         alert("completa todos los campos, por favor");
-        return false; 
-        
+        return false;
+
     }
 
 }

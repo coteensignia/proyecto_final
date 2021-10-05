@@ -77,15 +77,15 @@ p {
 }
 
 .box3 {
-    width: 100%;  
+    width: 100%;
 }
 
-.box3 p{
+.box3 p {
     margin: 10px;
     width: 90%;
-    text-align:center;
+    text-align: center;
     padding: 0;
-    
+
 }
 
 header ul li a {
@@ -150,7 +150,7 @@ h2 {
 
 }
 
-.boton-personalizado2{
+.boton-personalizado2 {
     width: 200px;
     padding: 4px;
     color: white;
@@ -521,7 +521,7 @@ h4 {
 .containera2 {
     display: flex;
     align-items: center;
-    
+
 }
 
 .containera2 h2 {
@@ -646,11 +646,11 @@ input {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
 
 
-        
+
 
     #Contacto2,
     .containera2,
@@ -682,16 +682,62 @@ input {
         width: 70%;
         margin: 20px 15%;
 
-        
+
     }
-    
-    .contenedorfooter{
+
+    .contenedorfooter {
         margin-bottom: 30px;
     }
 
     .footerc1 {
         display: none;
     }
-  
+
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav,
+    ul,
+    li {
+
+        margin: 10px;
+    }
+
+    .box2,
+    h1 {
+        font-size: 50px;
+    }
+
+    .boton-personalizado {
+        font-size: 20px;
+    }
+
+    #Contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .contenedorfooter,
+    .social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
 
 }
