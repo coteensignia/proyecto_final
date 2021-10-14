@@ -100,6 +100,9 @@ header ul li a {
     background-size: 0% 2px;
     transition: background-size 1000ms;
 }
+.btn-whatsapp {
+    margin-bottom: 150px;
+}
 
 a:hover {
     color: #004481;
@@ -569,6 +572,19 @@ input {
     background-color: #009bdb;
 }
 
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
 
 
 /* Media Query */
@@ -618,7 +634,7 @@ input {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 450px) {
 
     #Nosotros {
         display: block;
@@ -628,6 +644,24 @@ input {
         display: flex;
         flex-wrap: wrap;
     }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+       
+    }
+
+
+    a {
+        margin: 5px;
+    }
+
+
 
     .container_container1 {
         margin-right: 2px;
@@ -648,6 +682,31 @@ input {
         align-items: center;
 
     }
+
+    #Contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 450px;
+   }
+
+   .container_contacto {
+    align-items: center;
+    justify-content: center; 
+    padding-bottom: 30px; 
+}
+
+#name, #email, #tel, #mensaje {
+    width: 350px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
 
 
 
@@ -691,53 +750,6 @@ input {
 
     .footerc1 {
         display: none;
-    }
-
-}
-
-
-@media only screen and (max-width: 375px) {
-
-    .nav {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .nav,
-    ul,
-    li {
-
-        margin: 10px;
-    }
-
-    .box2,
-    h1 {
-        font-size: 50px;
-    }
-
-    .boton-personalizado {
-        font-size: 20px;
-    }
-
-    #Contacto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-
-    .contenedorfooter,
-    .social {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
     }
 
 }
